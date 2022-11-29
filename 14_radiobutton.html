@@ -1,0 +1,38 @@
+<!-- copying previous file
+ refer from line 22 to 32 (we have to keep the same value of name for not selection multiple radio button(i.e gender here) at a time) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form action="we can put any html file here which we want to show when we sign up">
+        <label for="Username">Username : </label>
+        <input type="text" id="Username" name="username"> <br><br>
+
+        <label for="Password">Password : </label>
+        <input type="password" id="Password" name="password"> <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email"> <br><br>
+        
+        <p>Select youy gender</p>
+        
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        
+        <label for="Others">Others</label>
+        <input type="radio" name="gender" id="Others" value="Others">
+            <br><br>
+        
+        <input type="submit" value="Log in">
+    </form>
+</body>
+</html>
